@@ -1,85 +1,28 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
   <title>I&#39;m Ryot</title>
-
   
-  <meta name="author" content="Ryot Lee">
+  <link href="/atom.xml" rel="self"/>
   
-
+  <link href="https://ryotlee.github.io/"/>
+  <updated>2017-03-18T01:36:22.000Z</updated>
+  <id>https://ryotlee.github.io/</id>
   
-
-  
-
-  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-  
-
-  <meta property="og:site_name" content="I&#39;m Ryot"/>
-
-  
-  <meta property="og:image" content="/favicon.ico"/>
-  
-
-  <link href="/favicon.ico" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="I&#39;m Ryot" type="application/atom+xml">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-</head>
-
-
-<body>
-<div class="blog">
-  <div class="content">
-
-    <header>
-  <div class="site-branding">
-    <h1 class="site-title">
-      <a href="/">I&#39;m Ryot</a>
-    </h1>
-    <p class="site-description"></p>
-  </div>
-  <nav class="site-navigation">
-    <ul>
-      
-        <li><a href="/">Home</a></li>
-      
-        <li><a href="/archives">Archives</a></li>
-      
-    </ul>
-  </nav>
-</header>
-
-    <main class="site-main posts-loop">
+  <author>
+    <name>Ryot Lee</name>
     
-  <article>
-
+  </author>
   
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Jade模板迁移到Pug模板修改.md</title>
+    <link href="https://ryotlee.github.io/2016/11/16/Jade%E6%A8%A1%E6%9D%BF%E8%BF%81%E7%A7%BB%E5%88%B0Pug%E6%A8%A1%E6%9D%BF%E4%BF%AE%E6%94%B9-md/"/>
+    <id>https://ryotlee.github.io/2016/11/16/Jade模板迁移到Pug模板修改-md/</id>
+    <published>2016-11-16T06:18:06.000Z</published>
+    <updated>2017-03-18T01:36:22.000Z</updated>
     
-    <h3 class="article-title"><a href="/2016/11/16/Jade模板迁移到Pug模板修改-md/"><span>Jade模板迁移到Pug模板修改.md</span></a></h3>
-    
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2016/11/16/Jade模板迁移到Pug模板修改-md/" rel="bookmark">
-        <time class="entry-date published" datetime="2016-11-16T06:18:06.000Z">
-          2016-11-16
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <h3 id="Jade模板迁移到Pug模板修改"><a href="#Jade模板迁移到Pug模板修改" class="headerlink" title="Jade模板迁移到Pug模板修改"></a>Jade模板迁移到Pug模板修改</h3><p>部分引用:<a href="https://pugjs.org/language/attributes.html" target="_blank" rel="external">https://pugjs.org/language/attributes.html</a></p>
+    <content type="html"><![CDATA[<h3 id="Jade模板迁移到Pug模板修改"><a href="#Jade模板迁移到Pug模板修改" class="headerlink" title="Jade模板迁移到Pug模板修改"></a>Jade模板迁移到Pug模板修改</h3><p>部分引用:<a href="https://pugjs.org/language/attributes.html" target="_blank" rel="external">https://pugjs.org/language/attributes.html</a></p>
 <ul>
 <li>修改模板引擎,修改所有文件后缀<blockquote>
 <p>app.set(‘view engine’, ‘pug’);</p>
@@ -99,116 +42,53 @@
 <blockquote>
 <p><strong>注意 : </strong>Attributes applied using &amp;attributes are not automatically escaped. You must be sure to sanitize any user inputs to avoid cross-site scripting (XSS). This is done for you if you are passing in attributes from a mixin call.</p>
 </blockquote>
-
-      
-    </div>
-
-  </div>
-
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
+]]></content>
     
-
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Jade模板迁移到Pug模板修改&quot;&gt;&lt;a href=&quot;#Jade模板迁移到Pug模板修改&quot; class=&quot;headerlink&quot; title=&quot;Jade模板迁移到Pug模板修改&quot;&gt;&lt;/a&gt;Jade模板迁移到Pug模板修改&lt;/h3&gt;&lt;p&gt;部分引用:&lt;a href=&quot;
+    
+    </summary>
     
     
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/Nodejs/">Nodejs</a>
-    </span>
+      <category term="Nodejs" scheme="https://ryotlee.github.io/tags/Nodejs/"/>
     
-
-    </div>
-
-    
-  </div>
-</article>
-
-
-
-  <article>
-
+  </entry>
   
+  <entry>
+    <title>Express+Jade引入bootstrap无法应用样式.md</title>
+    <link href="https://ryotlee.github.io/2016/11/10/Express-Jade%E5%BC%95%E5%85%A5bootstrap%E6%97%A0%E6%B3%95%E5%BA%94%E7%94%A8%E6%A0%B7%E5%BC%8F-md/"/>
+    <id>https://ryotlee.github.io/2016/11/10/Express-Jade引入bootstrap无法应用样式-md/</id>
+    <published>2016-11-10T06:25:03.000Z</published>
+    <updated>2017-03-18T01:36:22.000Z</updated>
     
-    <h3 class="article-title"><a href="/2016/11/10/Express-Jade引入bootstrap无法应用样式-md/"><span>Express+Jade引入bootstrap无法应用样式.md</span></a></h3>
-    
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2016/11/10/Express-Jade引入bootstrap无法应用样式-md/" rel="bookmark">
-        <time class="entry-date published" datetime="2016-11-10T06:25:03.000Z">
-          2016-11-10
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p>在使用jade模板引擎开发时,引入bootstrap发现样式,无法正常显示</p>
+    <content type="html"><![CDATA[<p>在使用jade模板引擎开发时,引入bootstrap发现样式,无法正常显示</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">link(href=<span class="string">"/bootstrap/dist/css/bootstrap.css"</span>)</div></pre></td></tr></table></figure>
 <p>修改为</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">link(href=<span class="string">"/bootstrap/dist/css/bootstrap.css"</span>,rel=<span class="string">"stylesheet"</span> type=<span class="string">"text/css"</span>)</div></pre></td></tr></table></figure>
 <p>就可以正常显示了.具体原因可能跟jade版本或者express版本有关</p>
-
-      
-    </div>
-
-  </div>
-
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
+]]></content>
     
-
+    <summary type="html">
+    
+      &lt;p&gt;在使用jade模板引擎开发时,引入bootstrap发现样式,无法正常显示&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/di
+    
+    </summary>
     
     
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/Express/">Express</a>
-    </span>
+      <category term="Express" scheme="https://ryotlee.github.io/tags/Express/"/>
     
-
-    </div>
-
-    
-  </div>
-</article>
-
-
-
-  <article>
-
+  </entry>
   
+  <entry>
+    <title>windows上安装启动Mongodb.md</title>
+    <link href="https://ryotlee.github.io/2016/09/13/windows%E4%B8%8A%E5%AE%89%E8%A3%85%E5%90%AF%E5%8A%A8Mongodb-md/"/>
+    <id>https://ryotlee.github.io/2016/09/13/windows上安装启动Mongodb-md/</id>
+    <published>2016-09-13T06:36:25.000Z</published>
+    <updated>2017-03-18T01:36:22.000Z</updated>
     
-    <h3 class="article-title"><a href="/2016/09/13/windows上安装启动Mongodb-md/"><span>windows上安装启动Mongodb.md</span></a></h3>
-    
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2016/09/13/windows上安装启动Mongodb-md/" rel="bookmark">
-        <time class="entry-date published" datetime="2016-09-13T06:36:25.000Z">
-          2016-09-13
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <h3 id="安装MongoDB数据库"><a href="#安装MongoDB数据库" class="headerlink" title="安装MongoDB数据库"></a>安装MongoDB数据库</h3><p><a href="https://www.mongodb.com/" target="_blank" rel="external">MongoDB官网</a>  </p>
+    <content type="html"><![CDATA[<h3 id="安装MongoDB数据库"><a href="#安装MongoDB数据库" class="headerlink" title="安装MongoDB数据库"></a>安装MongoDB数据库</h3><p><a href="https://www.mongodb.com/" target="_blank" rel="external">MongoDB官网</a>  </p>
 <p><a href="https://www.mongodb.org/dl/win32/x86_64-2008plus-ssl?_ga=1.105712650.802750756.1478658460" target="_blank" rel="external">下载MongoDB</a></p>
 <h5 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h5><blockquote>
 <p>MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。<br>MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。</p>
@@ -276,59 +156,27 @@
 <p>net start MongoDBService 启动mongodb服务</p>
 <p>net stop MongoDBService 关闭mongodb服务</p>
 </blockquote>
-
-      
-    </div>
-
-  </div>
-
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
+]]></content>
     
-
+    <summary type="html">
+    
+      &lt;h3 id=&quot;安装MongoDB数据库&quot;&gt;&lt;a href=&quot;#安装MongoDB数据库&quot; class=&quot;headerlink&quot; title=&quot;安装MongoDB数据库&quot;&gt;&lt;/a&gt;安装MongoDB数据库&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.mongodb.c
+    
+    </summary>
     
     
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/Mongodb/">Mongodb</a>
-    </span>
+      <category term="Mongodb" scheme="https://ryotlee.github.io/tags/Mongodb/"/>
     
-
-    </div>
-
-    
-  </div>
-</article>
-
-
-
-  <article>
-
+  </entry>
   
+  <entry>
+    <title>一步步实现Amd-loader(三)</title>
+    <link href="https://ryotlee.github.io/2015/06/12/%E4%B8%80%E6%AD%A5%E6%AD%A5%E5%AE%9E%E7%8E%B0Amd-loader-%E4%B8%89/"/>
+    <id>https://ryotlee.github.io/2015/06/12/一步步实现Amd-loader-三/</id>
+    <published>2015-06-12T15:11:00.000Z</published>
+    <updated>2017-03-18T01:36:22.000Z</updated>
     
-    <h3 class="article-title"><a href="/2015/06/12/一步步实现Amd-loader-三/"><span>一步步实现Amd-loader(三)</span></a></h3>
-    
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2015/06/12/一步步实现Amd-loader-三/" rel="bookmark">
-        <time class="entry-date published" datetime="2015-06-12T15:11:00.000Z">
-          2015-06-12
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p>通过前面几步,我们基本实现了一个模块化编程,现在要为程序实现AMD的接口(define方法)<br>AMD的规范只定义了一个函数 “define”，它是全局变量。函数的描述为：</p>
+    <content type="html"><![CDATA[<p>通过前面几步,我们基本实现了一个模块化编程,现在要为程序实现AMD的接口(define方法)<br>AMD的规范只定义了一个函数 “define”，它是全局变量。函数的描述为：</p>
 <blockquote>
 <p>  define(id?, dependencies?, factory);</p>
 </blockquote>
@@ -354,59 +202,29 @@
 <p>require函数其实也是一个define函数的过程,为了便于理解,暂时不处理</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"> * 定义require函数</div><div class="line"> * @param  &#123;[type]&#125;   deps     [description]</div><div class="line"> * @param  &#123;Function&#125; callback [description]</div><div class="line"> * @return &#123;[type]&#125;            [description]</div><div class="line"> */</div><div class="line">  <span class="function"><span class="keyword">function</span> <span class="title">require</span>(<span class="params">deps, callback</span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> mod = <span class="keyword">new</span> Module(context.topModule,deps,callback);</div><div class="line">    context.loads[context.topModule] = <span class="literal">true</span>;</div><div class="line">    context.modulesMap[context.topModule] = mod; <span class="comment">//top main module already loaded</span></div><div class="line">    context.newModules.push(mod);</div><div class="line">    context.waitingModules.push(mod);</div><div class="line">    mod.loadDeps();</div><div class="line">    exec();</div><div class="line">  &#125;</div></pre></td></tr></table></figure>
 <p>具体实现可以参考我的<a href="https://gist.github.com/ryotlee/c3649d91559e204b9d3b7f61be433d21" target="_blank" rel="external">github</a>或者<a href="https://github.com/foio/MyRequireJS" target="_blank" rel="external">foio.github.io</a>实现.</p>
-
-      
-    </div>
-
-  </div>
-
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
+]]></content>
     
-
+    <summary type="html">
+    
+      &lt;p&gt;通过前面几步,我们基本实现了一个模块化编程,现在要为程序实现AMD的接口(define方法)&lt;br&gt;AMD的规范只定义了一个函数 “define”，它是全局变量。函数的描述为：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;  define(id?, dependencies?,
+    
+    </summary>
     
     
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/javascript/">javascript</a>
-    </span>
+      <category term="javascript" scheme="https://ryotlee.github.io/tags/javascript/"/>
     
-
-    </div>
-
-    
-  </div>
-</article>
-
-
-
-  <article>
-
+  </entry>
   
+  <entry>
+    <title>一步步实现Amd-loader(二)</title>
+    <link href="https://ryotlee.github.io/2015/06/08/%E4%B8%80%E6%AD%A5%E6%AD%A5%E5%AE%9E%E7%8E%B0Amd-loader-%E4%BA%8C/"/>
+    <id>https://ryotlee.github.io/2015/06/08/一步步实现Amd-loader-二/</id>
+    <published>2015-06-08T11:25:06.000Z</published>
+    <updated>2017-03-18T01:36:22.000Z</updated>
     
-    <h3 class="article-title"><a href="/2015/06/08/一步步实现Amd-loader-二/"><span>一步步实现Amd-loader(二)</span></a></h3>
-    
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2015/06/08/一步步实现Amd-loader-二/" rel="bookmark">
-        <time class="entry-date published" datetime="2015-06-08T11:25:06.000Z">
-          2015-06-08
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <p>通过上面的代码,我们对模块化有了一定的了解,下面从面向对象思想出发,对模块进行分析.</p>
+    <content type="html"><![CDATA[<p>通过上面的代码,我们对模块化有了一定的了解,下面从面向对象思想出发,对模块进行分析.</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"> * 这是定义模块add</div><div class="line"> */</div><div class="line"><span class="keyword">var</span> addModule = (<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">"i'm add module ...."</span>);</div><div class="line">  &#125;</div><div class="line">&#125;)();</div><div class="line"><span class="comment">/**</span></div><div class="line"> * 这是定义模块minus</div><div class="line"> */</div><div class="line"><span class="keyword">var</span> minusModule = (<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">"I'm minu module...."</span>);</div><div class="line">  &#125;</div><div class="line">&#125;)();</div><div class="line"><span class="comment">/**</span></div><div class="line">* 这是计算模块,依赖模块add 和模块minus</div><div class="line">* @type &#123;[type]&#125;</div><div class="line">*/</div><div class="line"><span class="keyword">var</span> calcModule = (<span class="function"><span class="keyword">function</span> (<span class="params">add,minus</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> &#123;</div><div class="line">    <span class="attr">add</span>: add,</div><div class="line">    <span class="attr">minus</span>: minus</div><div class="line">  &#125;</div><div class="line">&#125;)(addModule,minusModule);</div></pre></td></tr></table></figure>
 <p>我们通过上面的代码可以分析抽象建立我们的Module</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">Module = &#123;</div><div class="line">  id:&quot;&quot;,//模块唯一标识</div><div class="line">  deps: [],//模块依赖数组</div><div class="line">  factory: function, //回调函数</div><div class="line">  returnVal: &#123;&#125; //模块暴露返回值</div><div class="line">&#125;</div><div class="line">/**</div><div class="line"> * 模块缓存对象</div><div class="line"> * @type &#123;Object&#125;</div><div class="line"> */</div><div class="line">moduleMap: &#123;</div><div class="line">  &quot;scripts/main&quot;: &#123;//--&gt;Module</div><div class="line">    id:&quot;scripts/main&quot;,</div><div class="line">    deps: [&apos;./calc&apos;],</div><div class="line">    factory: function,</div><div class="line">    returnVal: &#123;&#125; //返回值</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -414,59 +232,28 @@
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"> * 创建增加计算模块</div><div class="line"> * @type &#123;Module&#125;</div><div class="line"> */</div><div class="line">  <span class="keyword">var</span> addModule = <span class="keyword">new</span> Module(<span class="string">'add'</span>,[],<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">      <span class="built_in">console</span>.log(<span class="string">"i'm new add module ...."</span>);</div><div class="line">    &#125;</div><div class="line">  &#125;);</div><div class="line">  moduleMap[<span class="string">'add'</span>] = addModule;</div><div class="line"><span class="comment">/**</span></div><div class="line"> * 创建减少计算模块</div><div class="line"> * @type &#123;Module&#125;</div><div class="line"> */</div><div class="line">  <span class="keyword">var</span> addModule = <span class="keyword">new</span> Module(<span class="string">'minus'</span>,[],<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">      <span class="built_in">console</span>.log(<span class="string">"I'm new minu module...."</span>);</div><div class="line">    &#125;</div><div class="line">  &#125;);</div><div class="line">  moduleMap[<span class="string">'minus'</span>] = addModule;</div><div class="line"></div><div class="line"> <span class="keyword">var</span> calcModule = <span class="keyword">new</span> Module(<span class="string">"calc"</span>,[<span class="string">'add'</span>,<span class="string">'minus'</span>],<span class="function"><span class="keyword">function</span> (<span class="params">add,minus</span>) </span>&#123;</div><div class="line">   <span class="keyword">return</span> &#123;</div><div class="line">     <span class="attr">add</span>: add,</div><div class="line">     <span class="attr">minus</span>: minus</div><div class="line">   &#125;</div><div class="line"> &#125;);</div><div class="line"> moduleMap[<span class="string">'calc'</span>] = calcModule;</div></pre></td></tr></table></figure>
 <p>需要为我们的Module对象添加两个方法: fireFactory(执行factory函数,赋值给returnVal)和getDepsValues(获取依赖模块的返回值)</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">Module.prototype.fireFactory = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> mod = <span class="keyword">this</span>;</div><div class="line">  <span class="comment">// 获取依赖模块的exports列表</span></div><div class="line">  <span class="keyword">var</span> args = mod.getDepsValues();</div><div class="line">  <span class="keyword">var</span> ret = mod.factory.apply(<span class="literal">null</span>, args);</div><div class="line">  mod.returnVal = ret;</div><div class="line">  <span class="keyword">return</span> mod.returnVal;</div><div class="line">&#125;</div><div class="line"></div><div class="line">Module.prototype.getDepsValues = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="keyword">var</span> mod = <span class="keyword">this</span>;</div><div class="line">  <span class="keyword">var</span> args = [];</div><div class="line">  <span class="keyword">var</span> deps = mod.deps;</div><div class="line">  <span class="keyword">var</span> dep;</div><div class="line">  <span class="keyword">var</span> argsLen = deps.length;</div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; argsLen; i++) &#123;</div><div class="line">      dep = getMod(deps[i]);<span class="comment">//从缓存中获取模块</span></div><div class="line">      args.push(dep.exec());<span class="comment">//执行递归函数</span></div><div class="line">  &#125;</div><div class="line">  <span class="keyword">return</span> args;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
-      
-    </div>
-
-  </div>
-
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
+]]></content>
     
-
+    <summary type="html">
+    
+      &lt;p&gt;通过上面的代码,我们对模块化有了一定的了解,下面从面向对象思想出发,对模块进行分析.&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;
+    
+    </summary>
     
     
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/javascript/">javascript</a>
-    </span>
+      <category term="javascript" scheme="https://ryotlee.github.io/tags/javascript/"/>
     
-
-    </div>
-
-    
-  </div>
-</article>
-
-
-
-  <article>
-
+  </entry>
   
+  <entry>
+    <title>一步步实现Amd-loader(一)</title>
+    <link href="https://ryotlee.github.io/2015/06/07/%E4%B8%80%E6%AD%A5%E6%AD%A5%E5%AE%9E%E7%8E%B0Amd-loader-%E4%B8%80/"/>
+    <id>https://ryotlee.github.io/2015/06/07/一步步实现Amd-loader-一/</id>
+    <published>2015-06-07T03:45:28.000Z</published>
+    <updated>2017-03-18T01:36:22.000Z</updated>
     
-    <h3 class="article-title"><a href="/2015/06/07/一步步实现Amd-loader-一/"><span>一步步实现Amd-loader(一)</span></a></h3>
-    
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2015/06/07/一步步实现Amd-loader-一/" rel="bookmark">
-        <time class="entry-date published" datetime="2015-06-07T03:45:28.000Z">
-          2015-06-07
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
-      
-        <h3 id="javascript-模块"><a href="#javascript-模块" class="headerlink" title="javascript 模块"></a>javascript 模块</h3><p>通常,在js中模块应该是IIFE-立即执行调用函数表达式(Immediately-Invoked-Function-Expressions)运行私有域–即防止变量和方法污染全局变量和方法.格式如下</p>
+    <content type="html"><![CDATA[<h3 id="javascript-模块"><a href="#javascript-模块" class="headerlink" title="javascript 模块"></a>javascript 模块</h3><p>通常,在js中模块应该是IIFE-立即执行调用函数表达式(Immediately-Invoked-Function-Expressions)运行私有域–即防止变量和方法污染全局变量和方法.格式如下</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line"></div><div class="line">    <span class="comment">// 声明私有变量和方法</span></div><div class="line"></div><div class="line">    <span class="keyword">return</span> &#123;</div><div class="line">      <span class="comment">// 声明公共方法和变量</span></div><div class="line">    &#125;</div><div class="line"></div><div class="line">&#125;)();</div></pre></td></tr></table></figure>
 <p>下面我们利用模块化设计一个小的测试程序,流程如下:</p>
 <blockquote>
@@ -475,53 +262,17 @@
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>一步步理解Requirejs 异步模块化编程<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">button</span> <span class="attr">id</span>=<span class="string">"btnAdd"</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">name</span>=<span class="string">"button"</span>&gt;</span>增加<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">button</span> <span class="attr">id</span>=<span class="string">"btnMinus"</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">name</span>=<span class="string">"button"</span>&gt;</span>减少<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"scripts/main.js"</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
 <p>main.js代码</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">(<span class="function"><span class="keyword">function</span> (<span class="params">global</span>) </span>&#123;</div><div class="line">  <span class="comment">/**</span></div><div class="line">   * 封装事件处理</div><div class="line">   * @param  &#123;[type]&#125;   el       [description]</div><div class="line">   * @param  &#123;[type]&#125;   type     [description]</div><div class="line">   * @param  &#123;Function&#125; callback [description]</div><div class="line">   * @return &#123;[type]&#125;            [description]</div><div class="line">   */</div><div class="line">  <span class="keyword">var</span> $emit = <span class="function"><span class="keyword">function</span> (<span class="params">el,type,callback</span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span> (el.addEventListener) &#123;</div><div class="line">      el.addEventListener(type,callback);</div><div class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span>(el.attachEvent)&#123;</div><div class="line">      el.attachEvent(<span class="string">"on"</span>+type,callback);</div><div class="line">    &#125;<span class="keyword">else</span> &#123;</div><div class="line">      el[type] = callback;</div><div class="line">    &#125;</div><div class="line">  &#125;;</div><div class="line">  global.$emit = $emit;</div><div class="line"></div><div class="line">  <span class="comment">/**</span></div><div class="line">   * 这是定义模块add</div><div class="line">   */</div><div class="line">  <span class="keyword">var</span> addModule = (<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">      <span class="built_in">console</span>.log(<span class="string">"i'm add module ...."</span>);</div><div class="line">    &#125;</div><div class="line">  &#125;)();</div><div class="line">  <span class="comment">/**</span></div><div class="line">   * 这是定义模块minus</div><div class="line">   */</div><div class="line">  <span class="keyword">var</span> minusModule = (<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">      <span class="built_in">console</span>.log(<span class="string">"I'm minu module...."</span>);</div><div class="line">    &#125;</div><div class="line">  &#125;)();</div><div class="line"></div><div class="line"><span class="comment">/**</span></div><div class="line"> * 这是计算模块,依赖模块add 和模块minus</div><div class="line"> * @type &#123;[type]&#125;</div><div class="line"> */</div><div class="line">  <span class="keyword">var</span> calcModule = (<span class="function"><span class="keyword">function</span> (<span class="params">add,minus</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> &#123;</div><div class="line">      <span class="attr">add</span>: add,</div><div class="line">      <span class="attr">minus</span>: minus</div><div class="line">    &#125;</div><div class="line">  &#125;)(addModule,minusModule);</div><div class="line"></div><div class="line">  <span class="comment">/***</span></div><div class="line">   *这里是主模块</div><div class="line">   */</div><div class="line">  $emit(<span class="built_in">document</span>.getElementById(<span class="string">'btnAdd'</span>),<span class="string">"click"</span>,<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    calcModule.add();</div><div class="line">  &#125;);</div><div class="line"></div><div class="line">  $emit(<span class="built_in">document</span>.getElementById(<span class="string">'btnMinus'</span>),<span class="string">"click"</span>,<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">     calcModule.minus();</div><div class="line">  &#125;);</div><div class="line"></div><div class="line">&#125;)(<span class="keyword">this</span>);</div></pre></td></tr></table></figure>
-
-      
-    </div>
-
-  </div>
-
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
+]]></content>
     
-
+    <summary type="html">
+    
+      &lt;h3 id=&quot;javascript-模块&quot;&gt;&lt;a href=&quot;#javascript-模块&quot; class=&quot;headerlink&quot; title=&quot;javascript 模块&quot;&gt;&lt;/a&gt;javascript 模块&lt;/h3&gt;&lt;p&gt;通常,在js中模块应该是IIFE-立即执行调用函数表
+    
+    </summary>
     
     
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/javascript/">javascript</a>
-    </span>
+      <category term="javascript" scheme="https://ryotlee.github.io/tags/javascript/"/>
     
-
-    </div>
-
-    
-  </div>
-</article>
-
-
-
-
-<nav class="pagination">
+  </entry>
   
-  
-</nav>
-    </main>
-
-    <footer class="site-footer">
-  <p class="site-info">
-    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
-    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
-    </br>
-    
-    &copy; 2017 Ryot Lee
-    
-  </p>
-</footer>
-    
-  </div>
-</div>
-</body>
-</html>
+</feed>
